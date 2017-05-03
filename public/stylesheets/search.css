@@ -1,0 +1,20 @@
+body {
+	background-image: url("http://myventure.in/wp-content/uploads/2015/03/2012-Movies-Collage.jpg");
+	background-repeat: no-repeat;
+	padding-top: 250px;
+}
+
+.form-style{
+	display: block;
+	width : 50%;
+	padding-top: 100px;
+	padding-left: 50px;
+	position: absolute;
+   left: 0;
+   right: 0;
+   margin: auto;  
+}
+
+button {
+	min-height: 50px;
+}
