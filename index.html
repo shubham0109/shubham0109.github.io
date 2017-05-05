@@ -1,1 +1,732 @@
-<h1>fghj</h1>
+
+<html>
+<head>
+	<title>EduShedu Assignment</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" href="bootstrap.js"></script>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+      <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
+	  
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  
+
+
+	
+
+	<style type="text/css">
+		body{
+			font-family: cursive;
+			color:#27282b;
+		}
+		::-webkit-scrollbar{
+			width: 8px;
+			background-color: white;
+		}
+		::-webkit-scrollbar-thumb{
+			border-radius: 10px;
+			background-color: #2e3a5e;
+		}
+		::-webkit-scrollbar-track{
+			border-radius: 10px;
+			background-color: white;
+		}
+		.background_video{
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+	 	video{
+	 		width: 100%;
+	 	}
+	 	.video_overlay{
+	 		position: absolute;
+	 		top: 0;
+	 		left: 0;
+	 		right: 0;
+	 		bottom: 0;
+	 		background-color: rgb(255, 255, 255, 1);
+	 		color: white;
+	 	}
+	 	.video_overlay h2{
+	 		position: absolute;
+	 		left: 30%;
+	 		right: 50%;
+	 		top: 50%;
+	 		text-transform: uppercase;
+	 		font-size: 3em;
+	 		font-family: cursive;
+	 	}
+
+	 	.navbar-fixed-top {
+   			 min-height: 100px;
+		}
+
+		.navbar-nav > li > a {
+		    padding-top: 0px;
+		    padding-bottom: 0px;
+		    line-height: 80px;
+		}
+
+		@media (max-width: 767px) {
+		    .navbar-nav > li > a {
+		    line-height: 20px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;}
+		}
+		.second_div{
+			background-color: #212223;
+			width: 100%;
+		}
+		.second_div h2{
+			font-family: 'Taviraj', serif;
+			color: white;
+			text-align: center;
+			padding-bottom: 40px;
+			padding-top: 50px;
+		}
+		.crsel{
+			padding-left: 150px;
+			padding-right: 150px;
+			width: 100%;
+			height: 100%;
+		}
+		.third_div{
+			background-color: #212223;
+			width: 100%;
+		}
+		.third_div h4{
+			font-family: 'Taviraj', serif;
+			color: white;
+			text-align: center;
+			padding-bottom: 40px;
+			padding-top: 30px;
+		}
+		.third_div:hover{
+			background-color: #191717;
+		}
+		#map{
+			width: 100%;
+			height: 400px;
+		}
+		.fourth_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			padding-top: 100px;
+		}
+		.fourth_div .thumbnail{
+			border:5px solid #d0d4db;
+		}
+		
+		.fourth_div h2{
+			font-size: 2em;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Anton', sans-serif;
+			font-weight: 0.8;
+		}
+		 #th1:hover, .fourth_div :hover{
+			border:15px solid #d0d4db;
+		}
+		.fifth_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			padding-top: 100px;
+		}
+		.fifth_div h2{
+			font-size: 3em;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		#th2:hover, .fifth_div :hover{
+			box-shadow: 0px 0px 10px #000000;
+    		z-index: 2;
+    		transition: all 200ms ease-in;
+    		transform: scale(1.1);
+    		opacity: 0.75;
+		}
+		.sixth_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			padding-top: 100px;
+		}
+		.sixth_div h2{
+			font-size: 4em;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		#p1:hover{
+			z-index: 2;
+    		transition: all 200ms ease-in;
+    		transform: scale(1.1);
+    		opacity: 0.75;
+		}
+		.seventh_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			padding-top: 100px;
+		}
+		.seventh_div h2{
+			font-size: 4em;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.eigth_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			padding-top: 100px;
+		}
+		.eigth_div h2{
+			font-size: 4em;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.ninth_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			padding-top: 100px;
+			}
+		.ninth_div h2{
+			font-size: 4em;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.ninth_div .container{
+			padding-top: 50px;
+			padding-left: 350px;
+			padding-right: 350px;
+			padding-bottom: 50px;
+		}
+		.tenth_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			padding-top: 50px;
+			background: #eaedf2;
+		}
+		.eleventh_div{
+			padding-right: 100px;
+			padding-left: 100px;
+			background: #1f2021;
+		}
+		.arrow{
+			display: none;
+		}
+		#li1:hover{
+			border-bottom: 2px solid #25549e;
+		}
+		nav.navbar.shrink {
+		  min-height: 35px;
+		}
+		nav.navbar{
+		   -webkit-transition: all 0.4s ease;
+		   transition: all 0.4s ease;
+		}
+	</style>
+
+
+</head>
+
+
+<body>
+
+
+<!-- navbar -->
+<nav class="navbar navbar-default navbar-fixed-top page-navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li style="padding-right: 50px; font-size: 0.9em;"><a id="li1" href="#hm">Home</a></li>
+        <li style="padding-right: 50px; font-size: 0.9em;"><a id="li1" href="#abt_us">About Us</a></li>
+        <li style="padding-right: 50px; font-size: 0.9em;"><a id="li1" href="#wwd">What We Do</a></li>
+        <li style="padding-right: 50px; font-size: 0.9em;"><a id="li1" href="#ot">Our Team</a></li>
+        <li style="padding-right: 50px; font-size: 0.9em;"><a id="li1" href="#pr">Projects</a></li>
+        <li style="padding-right: 100px; font-size: 0.9em;"><a id="li1" href="#cnt_us">Contact Us</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- background video -->
+
+<div id="myCarousel" class="slider carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" id="hm">
+    <div class="item active" id="video">
+      <video id="0" muted autoplay="autoplay" loop="loop" preload="auto">
+        <source src="video.mp4"></source>
+      </video>
+      <div class="video_overlay" >
+	   	<h2 style="color: white;display: inline-block;padding-left: 75px;">REDIFINING</h2>
+	  </div>
+    </div>
+    <div class="item">
+      <video id="1" muted autoplay="autoplay" loop="loop" preload="auto">
+        <source src="video1.mp4"></source>
+      </video>
+	   
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<script type="text/javascript">
+	$('.carousel').carousel({
+  interval: 2000
+})
+</script>
+
+
+<!-- featured projects -->
+<div class="container second_div">
+ <h2>OUR FEATURED PROJECT</h2>
+ <br>
+<div id="carousel-example-generic" class="carousel slide crsel" data-ride="carousel">
+  
+  
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="https://www.kickingdesigns.com/wp-content/gallery/old-wallpapers/photographic/new-york-city/new_york_city_009_1920.jpg" alt="img1" class="img-responsive">
+      
+        
+    </div>
+    <div class="item">
+      <img src="http://blueandgreentomorrow.com/wp-content/uploads/2016/02/4976508500_5bc3c431ac_o.jpg" alt="img2" class="img-responsive">
+      <!-- <div class="carousel-caption">
+        ...
+      </div> -->
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<script type="text/javascript">
+	$('.carousel').carousel({
+  interval: 2000
+})
+</script>
+
+<div class="container third_div">
+	<center>
+	<h4 style="display: inline-block; padding-right: 10px;">LOCATION MAP</h4><i class="fa fa-chevron-up " id="arrow1" aria-hidden="true" style="color: white;"></i><i class="fa fa-chevron-down arrow" id="arrow2" aria-hidden="true" style="color: white;"></i>
+	</center>
+
+</div>
+	<div id ="map" style="overflow: hidden;">
+	<script>
+		function initMap() {
+        var uluru = {lat: 28.1438, lng: 77.2789};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+      
+	</script>
+	</div>
+</div>
+
+<div class="fourth_div">
+<h2>EFFICIENT AFFORDABLE PRICING MODELS</h2>
+	<div class="row">
+      <div class="col-lg-3 ">
+        <div class="thumbnail" id="th1">
+        <br>
+          <center><i class="fa fa-home" style="font-size: 2em ;padding-top:10px;" aria-hidden="true"></i></center>
+          <br>
+          <center><h4>PLOT</h4>
+          <br>
+          <br>
+          <h3>ON REQUEST</h3>
+          <p>STARTS WITH 100 SQ YD</br>
+          <br>
+			MINUMUM 30 FEET ROAD</br>
+			<br>
+			GATED SOCIETY WITH CLUB HOUSE FACILITES</br>
+			<br>
+			BANK FINANCE AVAILABLE</br>
+			<br>
+		  </p>
+          </center>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail" id="th1">
+          <br>
+          <center><i class="fa fa-home" style="font-size: 2em ;padding-top:10px;" aria-hidden="true"></i></center>
+          <br>
+          <center><h4>PLOT</h4>
+          <br>
+          <br>
+          <h3>ON REQUEST</h3>
+          <p>STARTS WITH 100 SQ YD</br>
+          <br>
+			MINUMUM 30 FEET ROAD</br>
+			<br>
+			GATED SOCIETY WITH CLUB HOUSE FACILITES</br>
+			<br>
+			BANK FINANCE AVAILABLE</br>
+			<br>
+		  </p>
+          </center>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6" >
+        <div class="thumbnail"  id="th1">
+          <br>
+          <center><i class="fa fa-home" style="font-size: 2em ;padding-top:10px;" aria-hidden="true"></i></center>
+          <br>
+          <center><h4>PLOT</h4>
+          <br>
+          <br>
+          <h3>ON REQUEST</h3>
+          <p>STARTS WITH 100 SQ YD</br>
+          <br>
+			MINUMUM 30 FEET ROAD</br>
+			<br>
+			GATED SOCIETY WITH CLUB HOUSE FACILITES</br>
+			<br>
+			BANK FINANCE AVAILABLE</br>
+			<br>
+		  </p>
+          </center>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail"  id="th1">
+          <br>
+          <center><i class="fa fa-home" style="font-size: 2em ;padding-top:10px;" aria-hidden="true"></i></center>
+          <br>
+          <center><h4>PLOT</h4>
+          <br>
+          <br>
+          <h3>ON REQUEST</h3>
+          <p>STARTS WITH 100 SQ YD</br>
+          <br>
+			MINUMUM 30 FEET ROAD</br>
+			<br>
+			GATED SOCIETY WITH CLUB HOUSE FACILITES</br>
+			<br>
+			BANK FINANCE AVAILABLE</br>
+			<br>
+		  </p>
+          </center>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+
+
+<div class="fifth_div" id="pr">
+<h2>PROJECT SNAPSHOTS</h2>
+	<div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail"  id="th2">
+      		<img src="http://www.visitliverpool.com/imageresizer/?image=%2Fdbimgs%2FLOOK%20-%20landscape.png&action=BlockLandscape">
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail" id="th2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Downtown_Meridian_from_City_Hall.jpg">
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail" id="th2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/City_at_dawn.JPG">
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail" id="th2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/National_route_four_in_fukushima_city_at_night.jpg">
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+
+<div class="sixth_div" id="abt_us">
+<h2>ABOUT US</h2>
+	<div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail" style="border:0px;">
+      		<p id="p1">
+      		<h3>PURPOSE</h3></br>
+      		To be a leader in the real estate</br>
+      		industry by providing enhanced </br>
+      		services, relationship and </br>
+      		profitability.</br>
+      		<br>
+      		<br>
+      		</p>
+      		<p id="p2">
+      		<h3>MISSION </h3></br>
+      		To be a leader in the real estate</br>
+      		industry by providing enhanced </br>
+      		services, relationship and </br>
+      		profitability.</br>
+      		<br>
+      		<br>
+      		</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <div class="thumbnail" style="border:0px;">
+          <img src="https://s-media-cache-ak0.pinimg.com/originals/e0/cc/07/e0cc070fdb799b21dee1c6ebbba1ad01.png">
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail" style="border:0px;">
+          <p id="p3">
+      		<h3>PURPOSE</h3></br>
+      		To be a leader in the real estate</br>
+      		industry by providing enhanced </br>
+      		services, relationship and </br>
+      		profitability.</br>
+      		<br>
+      		<br>
+      		</p>
+      		<p id="p4">
+      		<h3>MISSION </h3></br>
+      		To be a leader in the real estate</br>
+      		industry by providing enhanced </br>
+      		services, relationship and </br>
+      		profitability.</br>
+      		<br>
+      		<br>
+      		</p>
+        </div>
+      </div> 
+    </div>
+</div>
+
+<div class="seventh_div" id="wwd">
+<h2>WHAT WE DO</h2>
+	<div class="row">
+      <div class="col-lg-6 col-sm-6">
+        <div class="thumbnail" style="border:none;">
+      		<p><h4>Prominence Realty is a 21st century visionary real estate developers, we believe in housing for all. creating quality housing with futuristic and innovative designs, putting "ART IN REAL ESTATE".</h4></p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <div class="thumbnail" style="border:none;">
+         <li style="font-family: cursive;">We have control over huge land parcels i.e. in access of 1050 acres, all across Delhi/NCR, and have been dealing in it.</li>
+         <br>
+          <li>We have control over huge land parcels i.e. in access of 1050 acres, all across Delhi/NCR, and have been dealing in it.</li>
+          <br>
+           <li>We have control over huge land parcels i.e. in access of 1050 acres, all across Delhi/NCR, and have been dealing in it.</li>
+           <br>
+            <li>We have control over huge land parcels i.e. in access of 1050 acres, all across Delhi/NCR, and have been dealing in it.</li>
+            <br>
+             <li>We have control over huge land parcels i.e. in access of 1050 acres, all across Delhi/NCR, and have been dealing in it.</li>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="eigth_div" id="ot">
+<h2>our team</h2>
+	<div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail">
+      		<img src="https://s-media-cache-ak0.pinimg.com/736x/8e/90/54/8e9054838f830753c63900a28d7869a2.jpg">
+      		<div class="caption">
+      			<center>
+                <h4>Subro</h4>
+                p>Lorem ipsum dolor sit amet, consectetur adipisicing eli</br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
+                </center>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/8e/90/54/8e9054838f830753c63900a28d7869a2.jpg">
+          <div class="caption">
+          		<center>
+                <h4>Shubham</h4>
+                p>Lorem ipsum dolor sit amet, consectetur adipisicing eli</br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
+                </center>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/8e/90/54/8e9054838f830753c63900a28d7869a2.jpg">
+          <div class="caption">
+          		<center>
+                <h4>Rishabh</h4>
+                p>Lorem ipsum dolor sit amet, consectetur adipisicing eli</br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
+                </center>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/8e/90/54/8e9054838f830753c63900a28d7869a2.jpg">
+          <div class="caption">
+          		<center>
+                <h4>Alok</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing eli</br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
+                </center>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="ninth_div" id="cnt_us">
+	<h2>CONTACT US</h2>
+	<center><h3 style="font-family: cursive;">WANT TO DISCUSS YOUR IDEA?</h3></center>
+	<div class="container">
+	<form>
+  <div class="form-group">
+    <label for="Email1">Email address</label>
+    <input type="email" class="form-control" id="Email1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="name1">Name</label>
+    <input type="type" class="form-control" id="name1" placeholder="Name">
+  </div>
+  <textarea class="form-control" rows="3" placeholder="Enter your text"></textarea>
+  <br>
+  <div class="form-group">
+  <center><button type="submit" class="btn btn-default">Submit</button></center>
+  </div>
+</form>
+</div>
+</div>
+
+<div class="tenth_div">
+ 	<h3 style="display: inline-block; padding-right: 450px;padding-top: 50px;">OFFICE:</h3><h3 style="display: inline-block; padding-right: 350px; padding-top: 50px;">PHONE:</h3><h3 style="display: inline-block; padding-right: 50px;padding-top: 50px;">E-MAIL:</h3>
+ 	<br>
+ 	<br>
+ 	<h3 style="display: inline-block; padding-right: 350px;padding-bottom: 50px;">155/5 connaught place</h3><h3 style="display: inline-block; padding-right: 300px;padding-bottom: 50px;">+91-456123789</h3><h3 style="display: inline-block;padding-bottom: 50px;">xyz@gmail.com</h3>
+ 	<br>
+ 	<br>
+</div>
+
+<div class="eleventh_div">
+	<br>
+	<br>
+	<center>
+	<p><a href="#hm" class="scrollToTop" style="color:blue;"><img src="arrow2.png"></a></p>
+	<br>
+	<i class="fa fa-twitter" aria-hidden="true" style="color: #427fbc; display: inline-block; padding-right: 30px;"></i>
+	<i class="fa fa-facebook-official" aria-hidden="true" style="color: #427fbc;display: inline-block; padding-right: 30px;"></i> 
+	<i class="fa fa-google" aria-hidden="true" style="color: #427fbc;"></i><br><br>
+	<h6 style="color:white;">2017 Shubham</h6>
+	</center>
+	<br>
+	<br> 
+	
+</div>
+
+<script>
+
+	$('div.third_div').click(function(){
+			$("#map").toggle();
+			$('#arrow1').toggleClass("arrow");
+			$('#arrow2').toggleClass("arrow");
+
+
+		});
+</script>
+
+<script >
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+</script>
+
+<script>
+	$(document).ready(function(){
+
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+</script>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous">
+</script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhZYxF49SbpiqpHiuV-NJm1eIxTpmlzHc&callback=initMap">
+    </script>
+</body>
+</html>
